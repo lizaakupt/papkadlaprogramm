@@ -1,9 +1,5 @@
-def check_psw(a):
-    i = "утка"
-    if a == i:
-        print("верно")
-    else:
-        print("не верно")
+def xaxa(f):
+    a = ((f - 32)* 5 / 9)
+    print(a)
 
-
-check_psw("утка")
+xaxa(5)
